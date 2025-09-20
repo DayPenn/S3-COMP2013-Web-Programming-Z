@@ -41,6 +41,14 @@
   color: #888;
 }
 
+.Card-Sale{
+  color: red;
+}
+
+.Card-Sale-Glow{
+  box-shadow: 0 0 10px 5px #61dafb;
+}
+
 .Card-Component {
   border: rgb(23, 161, 230) 2px solid;
   padding: 10 px;
@@ -55,5 +63,20 @@
   display: flex;
   width: 500 px;
   justify-content: space-around;
-  justify-items: center;
+  align-items: center;
+}
+
+@media screen and (max-width = 480px) {
+.main-container {
+  flex-direction: column;
+  width: 300 px;
+}
+.Card-Component {
+  width: 90%;
+  margin: 10 px;
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+}
 }

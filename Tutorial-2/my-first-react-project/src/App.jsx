@@ -4,14 +4,14 @@ import Card from './Components/Card';
 
 function App() {
   return (
-  <>  
-<h1>Diamond World</h1>  
-  <div className = "main-container">
-    <Card image="src\assets\images\ring1.jpg" name = "Princess" price="$1,350"/>
-    <Card image="src\assets\images\ring2.jpg" name = "Swan" price="$900"/>
-    <Card image="src\assets\images\ring3.jpg" name = "Collection" price="$1,100"/>
-  </div>
-</>
+  <div className = "main-div">
+    <h1>Diamond World</h1>  
+      <div className = "main-container">
+        <Card image="src\assets\images\ring1.jpg" name = "Princess" price="$1,350"/>
+        <Card image="src\assets\images\ring2.jpg" name = "Swan" price="$900" sale = {true}/>
+        <Card image="src\assets\images\ring3.jpg" name = "Collection" price="$1,100" sale =  {true}/>
+      </div>
+</div>
   );
 }
 
