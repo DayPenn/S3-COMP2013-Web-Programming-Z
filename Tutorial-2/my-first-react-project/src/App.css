@@ -51,7 +51,7 @@
 
 .Card-Component {
   border: rgb(23, 161, 230) 2px solid;
-  padding: 10 px;
+  padding: 10px;
   border-radius: 10px;
   margin: 0 10px;
 }
@@ -59,9 +59,9 @@
 .main-container {
   border: rgb(135, 195, 225) 2px solid;
   border-radius: 10px;
-  padding: 20 px;
+  padding: 20px;
   display: flex;
-  width: 500 px;
+  width: 500px;
   justify-content: space-around;
   align-items: center;
 }
@@ -69,11 +69,11 @@
 @media screen and (max-width: 480px) {
 .main-container {
   flex-direction: column;
-  width: 300 px;
+  width: 300px;
 }
 .Card-Component {
   width: 90%;
-  margin: 10 px;
+  margin: 10px;
 }
 .main-div {
   display: flex;
