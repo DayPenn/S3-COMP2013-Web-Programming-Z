@@ -54,7 +54,7 @@
 
 .Card-Component {
   margin: 0 10px;
-  font-size: x-small;
+  font-size: xx-small;
   line-height: 50%;
   text-align: left;
 }
@@ -70,8 +70,9 @@ WORKED - going to leave this alone*/
 
 .Location-Header{
   color: black;
-  font-size: small;
+  font-size: x-small;
 }
+
 .main-div{
   align-items: center;
   text-align: center;
@@ -81,19 +82,17 @@ WORKED - going to leave this alone*/
 }
 .webpage-title{
   justify-content: center;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: 800;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #6b6b6b;
+  padding-top: 10px;
 }
 .main-container {
   padding: 10px;
   display: flex;
-  width: 500px;
+  width: 720px; /*manually adjusted, not sure if correct */
   color: #7c7274;
+  border-top: #6a6a6a solid;
 }
-
-
-
 
 @media screen and (max-width: 500px) {
 .main-container {

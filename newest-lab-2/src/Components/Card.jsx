@@ -9,7 +9,7 @@
  export default function Card(props){
     return(
     <div className = "Card-Component">
-        <img src={props.image} alt="" width = "100px" />
+        <img src={props.image} alt="" width = "100px"/>
         <h2 className = "Location-Header">{props.location}</h2>
         <h3>{props.resort}</h3>
         <p className = {props.goodRating ? "goodRating" : "badRating"}>{props.rating}</p>
