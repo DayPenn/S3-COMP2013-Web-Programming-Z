@@ -2,7 +2,7 @@ import {useState} from "react";
 // Ziad NOTE: if using STATES always name setters SET + NAME *continuity-etiquette*
 
 function getRandomColor(colors) {
-    const index = Math.floor(Math.random() * colors.length); // from POKEMON randomizer
+    const index = Math.ceil(Math.random() * colors.length); // from POKEMON randomizer
     return colors[index];
 }
 
