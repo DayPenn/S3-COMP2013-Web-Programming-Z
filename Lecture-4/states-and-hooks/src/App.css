@@ -40,3 +40,44 @@
 .read-the-docs {
   color: #888;
 }
+
+.ColorBox{
+  background-color: rgb(255, 255, 0);
+  /* background-color = property, aqua = value */
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+}
+
+.ColourBoxesContainer{
+  width: 250px;
+  height: 250px;
+  border: black 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  
+  /*justify-content: center; /* center along horizon (X-axis) */
+  justify-content: space-EVENLY; /*(divides proper proportions)
+   /* -OR- space between sets outside to border and then centers remaining
+    space-around just kind of adds random-ish padding inside border, around items */
+  
+  align-items: center; /* center along height (Y-axis) */
+
+  /* flex-direction: column; /* row -OR- row-reverse -OR- column-reverse */
+ /* changing direction of FLEX-DIRECTION re-orients directions of x and y axis */
+
+}
+
+/* responsiveness*/
+@media screen and (max-width: 500px) {
+  .ColorBox{
+    font-size: 0.5rem;
+  }
+
+  .ColourBoxesContainer{
+    flex-direction: column;
+  }
+}
