@@ -1,11 +1,14 @@
+import { useState } from 'react';
 import './App.css'
-import ColorBox from './Components/ColorBox';
-import data from "./data/data";
+import colors from "./data/data";
+import ColorBoxesContainer from "./Components/ColorBoxesContainer";
 
 function App() {
 
   return (
-        <ColorBox colors={data}/>
+    <div>
+        <ColorBoxesContainer colors={colors}/>
+    </div>
   )
 }
 
