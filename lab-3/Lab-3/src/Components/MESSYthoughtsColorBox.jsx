@@ -9,8 +9,6 @@ export default ColourContainer() {
   }
 }
 
-
-
 /* NOT WORKING: keep in case I was onto something:
 
 export default function ColorBox({ colourData }) {

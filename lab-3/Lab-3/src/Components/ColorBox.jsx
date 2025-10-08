@@ -1,11 +1,12 @@
-import {useState} from "react"; // if using STATES always name setters SET + NAME *continuity, proper-etiquette*
+import {useState} from "react"; 
+// Ziad NOTE: if using STATES always name setters SET + NAME *continuity-etiquette*
 
 function getRandomColor(colors) {
     const index = Math.floor(Math.random() * colors.length); // from POKEMON randomizer
     return colors[index];
 }
 
-export default function ColorBox({color, colors}) { // container
+export default function ColorBox({color, colors}) { // container for all boxes
     const [boxColor, setBoxColor] = useState(color);
 
     return (
