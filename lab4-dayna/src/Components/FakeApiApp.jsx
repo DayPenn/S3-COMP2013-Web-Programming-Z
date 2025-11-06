@@ -1,4 +1,5 @@
 // Lab 4 : due Nov 5, 2025
+// Dayna Pennock
 
 import {useState, useEffect} from "react";
 import PostForm from "./PostForm";

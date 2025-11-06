@@ -1,18 +1,18 @@
 export default function PostForm({
-  newPost,
+  newPost, // similar to todo
   handleOnChange,
   handleAddPost,
 }) {
   return (
     <div>
       <form action="">
-        <input
+        <input // title - required
           type="text"
           name="title"
           value={newPost.title}
           onChange={handleOnChange}
         />
-        <input
+        <input // body - required
           type="text"
           name="body"
           value={newPost.body}
